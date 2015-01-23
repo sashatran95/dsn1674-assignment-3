@@ -1,0 +1,47 @@
+html {
+	background-color: #333333;
+	/*
+		Black #000000	#000
+		White #ffffff	#fff
+		Grey #333333 #cccccc
+		Red #ff0000	#f00
+		Green #00ff00	#0f0
+	*/
+
+}
+
+h1/* add another parent if you want them to have the same font ex: h2*/ {
+	font-weight: normal;
+	font-size: 5rem; /* Xpix is really really small*/
+	font-style: italic; /* normal, italic*/
+	text-decoration: underline; /*underline, line-through*/
+	/*font-family: Arial, sans-serif; /* quotate some with space in it like "Comic Sans"*/
+	font-family: 'Roboto', sans-serif;
+}
+
+ol{
+	list-style-type: none;
+	/*
+	none(if you don't want any list style types)
+	decimal, circle, lower-roman, lower-alpha, disc, square
+	*/
+	padding: 0; /* these will get rid of those unwanted indentations*/
+}
+
+li {
+	font-weight: bold;
+
+}
+
+.stego { /* . to target a class that you want to modify*/
+	color: blue;
+}
+
+a {
+	color: purple;
+}
+
+a:hover {
+	color: white;
+}
+
