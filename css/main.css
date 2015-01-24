@@ -12,7 +12,7 @@ h1{
 }
 
 h2{
-	font-weight: heavy;
+	font-weight: medium;
 	font-size: 1.5rem;
 	font-style: normal;
 	text-decoration: underline;
@@ -21,12 +21,17 @@ h2{
 }
 
 h3{
-	font-weight: heavy;
+	font-weight: medium;
 	font-size: 1.3rem;
 	font-style: normal;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	color: #1A4E81
+}
+p{
+	font-decoration: none;
+	font-family: arial;
+	font-size: 0.9rem;
 }
 
 ul{
@@ -43,7 +48,7 @@ li {
 
 }
 
-.celestial { 
+.celest { 
 	color: #2E8AE6;
 }
 
