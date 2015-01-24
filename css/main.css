@@ -1,31 +1,41 @@
 html {
-	background-color: #333333;
-	/*
-		Black #000000	#000
-		White #ffffff	#fff
-		Grey #333333 #cccccc
-		Red #ff0000	#f00
-		Green #00ff00	#0f0
-	*/
-
+	background-color: #DBEEFF;
 }
 
-h1/* add another parent if you want them to have the same font ex: h2*/ {
-	font-weight: normal;
-	font-size: 5rem; /* Xpix is really really small*/
-	font-style: italic; /* normal, italic*/
-	text-decoration: underline; /*underline, line-through*/
-	/*font-family: Arial, sans-serif; /* quotate some with space in it like "Comic Sans"*/
+h1{
+	font-weight: heavy;
+	font-size: 4.2rem;
+	font-style: normal;
+	text-decoration: underline;
 	font-family: 'Roboto', sans-serif;
+	color: #1A4E81
+}
+
+h2{
+	font-weight: heavy;
+	font-size: 1.5rem;
+	font-style: normal;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	color: #1A4E81
+}
+
+h3{
+	font-weight: heavy;
+	font-size: 1.3rem;
+	font-style: normal;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #1A4E81
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
 }
 
 ol{
-	list-style-type: none;
-	/*
-	none(if you don't want any list style types)
-	decimal, circle, lower-roman, lower-alpha, disc, square
-	*/
-	padding: 0; /* these will get rid of those unwanted indentations*/
+	list-style-type: lower-roman;
 }
 
 li {
@@ -33,15 +43,15 @@ li {
 
 }
 
-.stego { /* . to target a class that you want to modify*/
-	color: blue;
+.celestial { 
+	color: #2E8AE6;
 }
 
 a {
-	color: purple;
+	color: #2E8AE6;
 }
 
 a:hover {
-	color: white;
+	color: 	#B2CCFF;
 }
 
