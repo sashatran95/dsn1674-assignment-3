@@ -42,7 +42,6 @@ blockquote {
 }
 
 footer {
-	text-align: right;
 	font-size: 1rem;
 
 }
@@ -51,14 +50,7 @@ ul {
 	padding: 0;
 }
 
-ol {
-	list-style-type: lower-roman;
-	font-family: arial;
-	font-size: 0.9rem;
-	font-weight: lighter;
-}
-
-dl {
+ol, dl {
 	list-style-type: lower-roman;
 	font-family: arial;
 	font-size: 0.9rem;
@@ -83,13 +75,20 @@ figurecaption {
 	color: #1A4E81;
 }
 
-.celest { 
+.celest, .round { 
 	color: #2E8AE6;
 }
 
-.round { 
+.cite { 
 	color: #2E8AE6;
+	font-size: 0.8rem;
+	text-align: right;
 }
+.leftquote, .rightquote {
+	color: #2E8AE6;
+	font-size: 3rem;
+}
+
 a {
 	color: #2E8AE6;
 }
@@ -97,4 +96,3 @@ a {
 a:hover {
 	color: 	#B2CCFF;
 }
-
