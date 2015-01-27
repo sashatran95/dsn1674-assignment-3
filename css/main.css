@@ -36,7 +36,6 @@ p {
 }
 
 blockquote {
-	text-align: center;
 	font-size: 1.5rem;
 
 }
@@ -72,7 +71,15 @@ figurecaption {
 	font-style: italic;
 	font-family: arial;
 	font-size: 0.8rem;
-	color: #1A4E81;
+	color: #2E8AE6;
+
+}
+ul2 {
+	list-style-type: circle;
+	font-family: arial;
+	font-size: 0.9rem;
+	font-weight: lighter;
+
 }
 
 .celest, .round { 
@@ -88,7 +95,13 @@ figurecaption {
 	color: #2E8AE6;
 	font-size: 3rem;
 }
-
+.phrase {
+	font-family: 'Roboto', sans-serif;
+	color: #1A4E81;
+	font-size: 1rem;
+	font-weight: bold;
+	font-style: italic;
+}
 a {
 	color: #2E8AE6;
 }
